@@ -199,13 +199,22 @@
 // В іншому випадку вона запитує підтвердження через confirm 
 // і повертає його результат (true/false).
 
- function isAdult(age) {
+//  function isAdult(age) {
 
-  if (age >= 18) {
-    return true;
-  } else {
-    return confirm ('Вам є 18 років?');
-  }
- }
+//   if (age >= 18) {
+//     return true;
+//   } else {
+//     return confirm ('Вам є 18 років?');
+//   }
+//  }
 
- console.log(isAdult(10));
+//  console.log(isAdult(10));
+
+
+ //task-10
+
+ // Напишіть функцію fizzBuzz(num), яка приймає число і перевіряє кожне число від 1 до num:
+// Якщо число ділитися  без остачі на 3 - виводить в консоль 'fizz',
+// якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
+// якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
+
